@@ -23,6 +23,7 @@ class ContactType extends AbstractType
             ->add('email', EmailType::class)
             ->add('onderwerp', TextareaType::class)
             ->add('bericht', TextareaType::class);
+
     }
 
     public function configureOptions(OptionsResolver $resolver)
